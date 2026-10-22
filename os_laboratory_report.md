@@ -1,7 +1,7 @@
 # Laboratory Report 1: Process Creation, Process States, Process Control Block, and Context Switching
 
 **Course & Section:** BCA151 Operating Systems Lab  
-**Student Name:** [Your Full Name]  
+**Student Name:** Miche Louie B. Acompañado
 **Date:** October 22, 2026  
 **Environment:** GitHub Codespaces (Linux Cloud Container)  
 
@@ -260,9 +260,10 @@ The operating system kernel maintains process state using an internal memory str
 
 ---
 
+
 ### Screenshot 2: GitHub Codespaces Environment
-![2. GitHub Codespaces Environment](./screenshots/02_github_codespaces.png)  
-*Caption: Active GitHub Codespaces development environment.*
+<img width="1919" height="986" alt="codespace" src="https://github.com/user-attachments/assets/24912230-d4d7-498d-9dff-7a6b6702f7bc" />
+Caption: Active GitHub Codespaces development environment.
 
 ---
 
