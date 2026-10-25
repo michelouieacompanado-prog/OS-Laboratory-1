@@ -1,8 +1,11 @@
 # Laboratory Report 1: Process Creation, Process States, Process Control Block, and Context Switching
 
 **Course & Section:** BCA151 Operating Systems Lab  
+
 **Student Name:** Miche Louie B. Acompañado
+
 **Date:** October 22, 2026  
+
 **Environment:** GitHub Codespaces (Linux Cloud Container)  
 
 ---
@@ -55,32 +58,36 @@ Upon completing this activity, the following capabilities were demonstrated:
   ```bash
   python --version
   ```
-  **Recorded Python Version:** `Python 3.10.12`
+  **Recorded Python Version:** `Python 3.14.2`
 
 * **Step 9: Running the Program**
   ```bash
   python process_lab.py
   ```
   *Sample Program Output:*
-  ```text
+  ```
   ==========================================
-       OPERATING SYSTEMS LABORATORY
-       PROCESS MONITORING ACTIVITY
+     OPERATING SYSTEMS LABORATORY
+     PROCESS MONITORING ACTIVITY
   ==========================================
-  Process ID (PID): 27778
+  Process ID (PID): 10919
   Process has been created.
   Process is executing...
 
   Execution step: 1
   Execution step: 2
   ...
+  Execution step: 15
+
+  Process execution completed.
+  Process is terminating...1164152.txt…]()
   ```
 
 ---
 
 ### Part F – Process Identification
 
-* **Step 10: Recorded PID:** `27778`
+* **Step 10: Recorded PID:** `10919`
 
 * **Discussion Question:** *Why does the operating system assign a PID to every process?*  
   **Answer:**  
@@ -255,8 +262,8 @@ The operating system kernel maintains process state using an internal memory str
 *(Instructions: Paste your image links, upload your screenshot files into a `/screenshots` folder in your repository, or attach your images under each corresponding section below.)*
 
 ### Screenshot 1: GitHub Repository
-![1. GitHub Repository](./screenshots/01_github_repository.png)  
-*Caption: GitHub repository `OS-Laboratory-1` created on GitHub.*
+<img width="1365" height="697" alt="os" src="https://github.com/user-attachments/assets/757f52e7-8758-4ed6-b8ce-e0afa6a14e44" />
+Caption: GitHub repository `OS-Laboratory-1` created on GitHub.
 
 ---
 
@@ -268,35 +275,42 @@ Caption: Active GitHub Codespaces development environment.
 ---
 
 ### Screenshot 3: Python Source Code
-![3. Python Source Code](./screenshots/03_python_source_code.png)  
-*Caption: Source code of `process_lab.py` open in the VS Code editor.*
+<img width="1365" height="626" alt="source code" src="https://github.com/user-attachments/assets/13ddd130-535c-489a-b7ce-5db3233e5d64" />
+Caption: Source code of `process_lab.py` open in the VS Code editor.
 
 ---
 
 ### Screenshot 4: Program Execution Showing PID
-![4. Program Execution Showing PID](./screenshots/04_program_execution_pid.png)  
-*Caption: Terminal output displaying process creation and assigned PID.*
+<img width="1919" height="1079" alt="pid" src="https://github.com/user-attachments/assets/e992df55-7ce2-43a7-a3c3-d55943951958" />
+Caption: Terminal output displaying process creation and assigned PID.
 
 ---
 
 ### Screenshot 5: `ps aux` Output
-![5. ps aux Output](./screenshots/05_ps_aux_output.png)  
-*Caption: `ps aux` command output showing process metrics.*
+<img width="1357" height="640" alt="ps aux" src="https://github.com/user-attachments/assets/d8778e94-8ed1-4338-92f8-1e93b83bde2a" />
+Caption: `ps aux` command output showing process metrics.
 
 ---
 
 ### Screenshot 6: `ps -o pid,stat,cmd` Output
-![6. ps -o pid,stat,cmd Output](./screenshots/06_ps_stat_cmd_output.png)  
-*Caption: Process state codes (`STAT`) output.*
+<img width="1384" height="644" alt="ps -o pid,stat,cmd" src="https://github.com/user-attachments/assets/c2918141-50f4-4614-84e0-6f8e5d5eaee5" />
+Caption: Process state codes (`STAT`) output.
 
 ---
 
 ### Screenshot 7: `top` Output
-![7. top Output](./screenshots/07_top_output.png)  
-*Caption: Real-time resource monitoring using the `top` command.*
+<img width="1382" height="758" alt="Run top" src="https://github.com/user-attachments/assets/b3bdc34b-e57b-468c-be66-e5cd0cebc911" />
+Caption: Real-time resource monitoring using the `top` command.
 
 ---
 
 ### Screenshot 8: Multiple Instances of `process_lab.py`
-![8. Multiple Instances of process_lab.py](./screenshots/08_multiple_instances.png)  
-*Caption: `ps aux` output showing multiple concurrent instances of `process_lab.py` with unique PIDs.*
+<img width="1365" height="824" alt="process_lab py result" src="https://github.com/user-attachments/assets/f3339c55-88fa-4122-abcc-53a88efde95d" />
+
+<img width="1365" height="729" alt="process_lab py1" src="https://github.com/user-attachments/assets/a820869e-1b46-4b7a-9e95-4b454e774368" />
+
+<img width="1365" height="730" alt="process_lab py2" src="https://github.com/user-attachments/assets/5f70a01d-08b1-4fab-9f89-1a846325cf41" />
+
+<img width="1365" height="727" alt="process_lab py3" src="https://github.com/user-attachments/assets/8458ec6a-6c09-4c2a-9523-3f07064370ab" />
+
+Caption: `ps aux` output showing multiple concurrent instances of `process_lab.py` with unique PIDs.
